@@ -1,5 +1,5 @@
 
-const { createLambda, download, getNodeVersion, getSpawnOptions, FileBlob, getWritableDirectory  } = require('@vercel/build-utils')
+const { createLambda, download, getNodeVersion, getSpawnOptions, FileBlob  } = require('@vercel/build-utils')
 const path = require('path')
 exports.config = {
     maxLambdaSize: '10mb'
